@@ -24,7 +24,7 @@ nodes:
   - hostname: "control-01"
     ipAddress: "192.168.0.162"
     installDisk: "/dev/mmcblk0"
-    talosImageURL: factory.talos.dev/installer/
+    talosImageURL: factory.talos.dev/installer/ee21ef4a5ef808a9b7484cc0dda0f25075021691c8c09a276591eedb638ea1f9
     controlPlane: true
     networkInterfaces:
       - deviceSelector:
